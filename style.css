@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.navber .container{
+  width: 70%;
+  display: flex;
+ margin: 0 auto;
+ align-items: center;
+ justify-content: space-between;
+ padding: 16px;
+}
+
+/* .navber .container .logo{
+    display: flex;
+    align-items: center;
+} */
+
+.navber .container .menu ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+
+.navber .container .menu ul li{
+    font-size: 16px;
+}
+
+.menu ul li:hover{
+
+}
+
+.navber .container .btn{
+    background-color: #3b6b4f;
+    
+    padding: 16px 12px;
+    border-radius: 4px;
+    
+
+}
+.navber .container .btn a{
+color: #FFFFFF;
+text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: red; */
+    padding: 20
+    
+       ;
+}
+
+
+/* hero section start */
+
+.hero{
+    display: flex;
+    /* background-color: aqua; */
+    height: 674px;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(../assets/hero-bg.png),center/cover no-repeat; */
+    display: flex;
+    text-align: center;
+    /* color:#FFFFFF ; */
+    background-image: url(../assets/hero-bg.png);
+    /* background-image: url("hero-bg.png"); */
+}
+.hero-content {
+    
+    max-width: 100%;
+    
+}
+
+
+.hero-content .badge{
+    display: inline-block;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: none;
+   
+}
+
+.hero-content h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    margin-bottom: 20px;
+   
+}
+
+.hero-content h1 span{
+    color: #30B868;
+}
+
+.hero-content p{
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+
+.hero-content .hero-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+   margin-top: 32px;
+}
+    
+.hero-content .hero-btn  .btn-first{
+    background-color: #469165 ;
+      padding: 16px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.hero-content .hero-btn .btn-second{
+     background-color: transparent ;
+      padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    
+}
+   /* hero section end */
+
+   /* card section start */
+  
+
