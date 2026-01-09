@@ -46,7 +46,6 @@ color: #FFFFFF;
 text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    /* background-color: red; */
     padding: 20
     
        ;
@@ -57,20 +56,17 @@ text-decoration: none;
 
 .hero{
     display: flex;
-    /* background-color: aqua; */
     height: 674px;
     align-items: center;
     justify-content: center;
-    /* background-image: url(../assets/hero-bg.png),center/cover no-repeat; */
     display: flex;
     text-align: center;
-    /* color:#FFFFFF ; */
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     
     
-    /* background-image: url("hero-bg.png"); */
+  
 }
 .hero-content {
     
@@ -189,7 +185,6 @@ text-decoration: none;
     height: 40px;
     background-color: #F95555;
     color: #FFFFFF;
-    /* display: flex; */
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -216,7 +211,6 @@ text-decoration: none;
 /* madia section start */
 
 .container-madia{
-   /* background-color: #F95555; */
    width: 70%;
    height: 600px;
    margin: 0 auto;
@@ -225,12 +219,11 @@ text-decoration: none;
     
 }
 .text-contant {
-    /* background-color: #3b6b4f; */
+   
     padding-left: 60px;
 }
     
 .text-contant .first-text {
-    /* background-color: red; */
     font-size: 16px;
     color: #469165;
     margin-bottom: 16px;
